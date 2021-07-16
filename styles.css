@@ -1,0 +1,146 @@
+html {
+  scroll-behavior: smooth;
+}
+h1, h2, h3, h4{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+  font-size:3rem;
+  line-height:1.5;
+}
+h2 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2rem;
+}
+p {
+  line-height: 2;
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+}
+.container,.container-fluid {
+  text-align: center;
+  margin: 8rem auto;
+}
+/* navbar */
+
+.navbar-brand {
+  padding-left:1rem;
+
+}
+nav ul {
+  margin-right: 1rem;
+}
+nav li {
+      padding-left: 16px;
+}
+/* intro */
+.welcome-h1 {
+margin: 0 15px;
+}
+.intro {
+text-align: left;
+}
+.my-picture {
+  border-radius:10%;
+  width: 65%;
+display: block;
+margin: 0 auto;
+
+}
+.intro-buttons {
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+/* skills */
+.skills {
+padding: 5rem 1rem;
+
+}
+.skill-block {
+  margin-top: 3rem;
+}
+.skill-icons {
+  color: #28a745;
+  margin-bottom: 4rem;
+}
+.skill-icons:hover {
+  color: #aef2c1;
+
+}
+/* footer */
+.home-footer {
+  padding: 2.5rem 1rem;
+  margin: 2rem auto 0;
+}
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+.footer-list li {
+    display: inline-block;
+    padding: 0 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-list a, .footer-list a:visited {
+  color: #f2f7fa;
+  background-color: #28a745;
+  padding: 0.3rem;
+  border-radius: 10%;
+}
+.footer-list a:hover {
+    color: #292b2c;
+    background-color: #f2f7fa;
+    text-decoration: none;
+}
+.footer-text {
+  font-size: 0.8rem;
+}
+
+/* aboutpage */
+.left-row {
+margin-top: 6rem;
+}
+.left-block {
+  text-align: left;
+}
+.right-block {
+  text-align: right;
+}
+/* card */
+.card {
+  text-align: center;
+  margin: 0 auto;
+
+}
+.card-container {
+  margin: 0;
+  padding: 6rem 0;
+}
+
+/* carousel */
+.slide-show {
+  margin-top: 3rem;
+}
+/* contact me */
+.contactme i {
+    margin-bottom: 1rem;
+}
+.contactme i:hover {
+    color: #28a745;
+}
+
+/* media query */
+@media only screen and (max-width: 992px) {
+.my-picture {
+  margin-top: 5rem;
+}
+.welcome-h1 {
+  text-align: center;
+}
+.intro {
+  text-align: center;
+}
+}
